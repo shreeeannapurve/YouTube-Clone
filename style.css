@@ -10,6 +10,7 @@
 :root{
     --white-color: #fff;
     --black-color: #000;
+    --bright-color: #fff;
     --light-white-color: #f0f0f0;
     --light-gray-color: #e5e5e5;
     --border-color: #d4d4d4;
@@ -21,7 +22,8 @@
 
 /* color variables for dark mode */
 body.dark-mode{
-    --white-color: #171717;
+    --white-color: #161616;
+    --bright-color: #fff;
     --black-color: #d4d4d4;
     --light-white-color: #333;
     --light-gray-color: #404040;
@@ -254,7 +256,7 @@ body.sidebar-hidden .main-layout .sidebar{
     position: absolute;
     right: 0.65rem;
     bottom: 0.8rem;
-    color: var(--white-color);
+    color: var(--bright-color);
     font-size: 0.875rem;
     padding: 0 0.3rem;
     border-radius: 0.3rem  ;
